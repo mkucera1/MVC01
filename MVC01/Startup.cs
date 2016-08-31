@@ -4,6 +4,8 @@ using Owin;
 [assembly: OwinStartupAttribute(typeof(MVC01.Startup))]
 namespace MVC01
 {
+
+    //MDK 01
     public partial class Startup
     {
         public void Configuration(IAppBuilder app)
