@@ -13,6 +13,8 @@ namespace MVC01
         {
             routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
 
+            routes.MapMvcAttributeRoutes();//enables attribute routing
+
             routes.MapRoute(
                 name: "Default",
                 url: "{controller}/{action}/{id}",
